@@ -17,6 +17,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
     vsync: this,
   )..repeat(reverse: true, max: 1);
 
+
   late final AnimationController _controllerText = AnimationController(
     duration: const Duration(seconds: 6),
     vsync: this,
